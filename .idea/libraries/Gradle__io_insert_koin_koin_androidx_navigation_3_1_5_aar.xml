@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: io.insert-koin:koin-androidx-navigation:3.1.5@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/162f07421e45d2ff5c579e50318d9d44/transformed/jetified-koin-androidx-navigation-3.1.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9cc80c27e2568c9343dfb0c5822b1571/transformed/jetified-koin-androidx-navigation-3.1.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/84c32005a41b1abf48967dc7ef0a2bd3/transformed/jetified-koin-androidx-navigation-3.1.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/84c32005a41b1abf48967dc7ef0a2bd3/transformed/jetified-koin-androidx-navigation-3.1.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/84c32005a41b1abf48967dc7ef0a2bd3/transformed/jetified-koin-androidx-navigation-3.1.5/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-androidx-navigation/3.1.5/3d36f0e95db80da6316943f331bb16986e538cfd/koin-androidx-navigation-3.1.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-androidx-navigation/3.1.5/82183737fed87a5fdd6315781abcafcfa1f5f809/koin-androidx-navigation-3.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
