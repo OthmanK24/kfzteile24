@@ -1,6 +1,7 @@
 package de.kfzteile24.app.data
 
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
+import de.kfzteile24.app.BuildConfig
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.json.Json
 import okhttp3.MediaType.Companion.toMediaType
@@ -15,7 +16,7 @@ internal class RetrofitFactory {
     return Retrofit.Builder()
       .addConverterFactory(json.asConverterFactory("application/json".toMediaType()))
       .client(getClient())
-      .baseUrl("URL")
+      .baseUrl(BuildConfig.BASE_URL)
       .build()
   }
 
