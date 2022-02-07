@@ -1,6 +1,6 @@
 package de.kfzteile24.app.data.locations.remote.api
 
-import de.kfzteile24.app.data.locations.model.LocationResponseDto
+import de.kfzteile24.app.data.locations.remote.dto.LocationResponseDto
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Path

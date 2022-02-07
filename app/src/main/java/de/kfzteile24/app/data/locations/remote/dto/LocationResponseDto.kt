@@ -1,4 +1,4 @@
-package de.kfzteile24.app.data.locations.model
+package de.kfzteile24.app.data.locations.remote.dto
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

@@ -1,8 +1,8 @@
-package de.kfzteile24.app.data.locations.remote.repository
+package de.kfzteile24.app.data.locations
 
 import de.kfzteile24.app.data.locations.remote.api.LocationApi
+import de.kfzteile24.app.domain.common.BaseResult
 import de.kfzteile24.app.domain.locations.LocationRepository
-import de.kfzteile24.app.domain.locations.common.BaseResult
 import de.kfzteile24.app.domain.locations.entity.LocationEntity
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

@@ -1,4 +1,4 @@
-package de.kfzteile24.app.domain.locations.common
+package de.kfzteile24.app.domain.common
 
 sealed class BaseResult <out T : Any, out U : Any> {
     data class Success <T: Any>(val data: T) : BaseResult<T, Nothing>()

@@ -2,7 +2,7 @@ package de.kfzteile24.app.presentation.location
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import de.kfzteile24.app.domain.locations.common.BaseResult
+import de.kfzteile24.app.domain.common.BaseResult
 import de.kfzteile24.app.domain.locations.entity.LocationEntity
 import de.kfzteile24.app.domain.locations.usecase.LocationUseCase
 import kotlinx.coroutines.flow.*

@@ -1,7 +1,7 @@
 package de.kfzteile24.app.domain.locations.usecase
 
 import de.kfzteile24.app.domain.locations.LocationRepository
-import de.kfzteile24.app.domain.locations.common.BaseResult
+import de.kfzteile24.app.domain.common.BaseResult
 import de.kfzteile24.app.domain.locations.entity.LocationEntity
 import kotlinx.coroutines.flow.Flow
 
