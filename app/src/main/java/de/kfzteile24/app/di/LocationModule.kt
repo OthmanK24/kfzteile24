@@ -4,6 +4,8 @@ import de.kfzteile24.app.data.locations.remote.api.LocationApi
 import de.kfzteile24.app.data.locations.remote.repository.LocationRepositoryImpl
 import de.kfzteile24.app.domain.locations.LocationRepository
 import de.kfzteile24.app.domain.locations.usecase.LocationUseCase
+import de.kfzteile24.app.presentation.location.LocationViewModel
+import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 import retrofit2.Retrofit
 
@@ -15,4 +17,5 @@ val locationModule = module {
 
     single<LocationRepository> { LocationRepositoryImpl(get()) }
 
+    viewModel { LocationViewModel(get()) }
 }
