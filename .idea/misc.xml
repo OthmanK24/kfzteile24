@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_baseline_expand_less.xml" value="0.133" />
+        <entry key="app/src/main/res/drawable/ic_baseline_expande.xml" value="0.1835" />
         <entry key="app/src/main/res/layout/detail_fragment.xml" value="0.17135416666666667" />
-        <entry key="app/src/main/res/layout/item_location.xml" value="0.10507246376811594" />
+        <entry key="app/src/main/res/layout/item_location.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_vehicle.xml" value="0.25" />
         <entry key="app/src/main/res/layout/item_view_location.xml" value="0.10507246376811594" />
         <entry key="app/src/main/res/layout/location_fragment.xml" value="0.12864583333333332" />
       </map>

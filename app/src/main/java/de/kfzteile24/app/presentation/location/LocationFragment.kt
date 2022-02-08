@@ -11,6 +11,7 @@ import de.kfzteile24.app.R
 import de.kfzteile24.app.databinding.LocationFragmentBinding
 import de.kfzteile24.app.domain.locations.entity.LocationEntity
 import de.kfzteile24.app.presentation.common.extension.gone
+import de.kfzteile24.app.presentation.common.extension.hasInternetConnection
 import de.kfzteile24.app.presentation.common.extension.showToast
 import de.kfzteile24.app.presentation.common.extension.visible
 import kotlinx.coroutines.flow.collect

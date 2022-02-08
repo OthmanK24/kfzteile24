@@ -21,6 +21,7 @@ class LocationAdapter(
         RecyclerView.ViewHolder(itemBinding.root) {
         fun bind(loc: LocationEntity) {
             itemBinding.tvName.text = loc.name
+            itemBinding.tvId.text = loc.id.toString()
             itemBinding.root.setOnClickListener {
                 onTabEvent.invoke(loc)
             }
